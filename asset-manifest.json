@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-website-project-ecolwill/static/css/main.aa0de82a.chunk.css",
+    "main.js": "/react-website-project-ecolwill/static/js/main.f3cee437.chunk.js",
+    "main.js.map": "/react-website-project-ecolwill/static/js/main.f3cee437.chunk.js.map",
+    "runtime-main.js": "/react-website-project-ecolwill/static/js/runtime-main.02d8552f.js",
+    "runtime-main.js.map": "/react-website-project-ecolwill/static/js/runtime-main.02d8552f.js.map",
+    "static/js/2.da5f0a0a.chunk.js": "/react-website-project-ecolwill/static/js/2.da5f0a0a.chunk.js",
+    "static/js/2.da5f0a0a.chunk.js.map": "/react-website-project-ecolwill/static/js/2.da5f0a0a.chunk.js.map",
+    "index.html": "/react-website-project-ecolwill/index.html",
+    "static/css/main.aa0de82a.chunk.css.map": "/react-website-project-ecolwill/static/css/main.aa0de82a.chunk.css.map",
+    "static/js/2.da5f0a0a.chunk.js.LICENSE.txt": "/react-website-project-ecolwill/static/js/2.da5f0a0a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-website-project-ecolwill/static/media/img-8.fabdf94d.jpg",
+    "static/media/img-pr1.jpg": "/react-website-project-ecolwill/static/media/img-pr1.ef20e673.jpg",
+    "static/media/img-pr2.jpg": "/react-website-project-ecolwill/static/media/img-pr2.f3e63ed5.jpg",
+    "static/media/img-pr3.jpg": "/react-website-project-ecolwill/static/media/img-pr3.12b7974c.jpg",
+    "static/media/img-pr4.jpg": "/react-website-project-ecolwill/static/media/img-pr4.7f9fc8a1.jpg",
+    "static/media/img-pr5.jpg": "/react-website-project-ecolwill/static/media/img-pr5.ef8efd0e.jpg",
+    "static/media/video-1.mp4": "/react-website-project-ecolwill/static/media/video-1.59e75226.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02d8552f.js",
+    "static/js/2.da5f0a0a.chunk.js",
+    "static/css/main.aa0de82a.chunk.css",
+    "static/js/main.f3cee437.chunk.js"
+  ]
+}
