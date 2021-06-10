@@ -1,7 +1,7 @@
 {
   "name": "react-website-project-ecolwill",
   "version": "0.1.0",
-  "homepage": "http://elijahcolwill.github.io/",
+  "homepage": "https://elijahcolwill.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.13.0",
