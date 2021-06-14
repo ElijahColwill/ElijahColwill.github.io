@@ -60,7 +60,7 @@ function NavBar() {
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>CONTACT</Button>}
+                {button && <Button buttonStyle='btn--rounded' to='/contact'>CONTACT <i class="fas fa-angle-right" /></Button>}
             </div>
         </nav>
         </>

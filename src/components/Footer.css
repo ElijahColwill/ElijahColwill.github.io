@@ -11,6 +11,11 @@
     color: #fff;
     font-size: 24px;
   }
+
+  .social-icon-link:hover {
+    transform: scale(1.05); 
+    color: #c5c5c5;
+  }
   
   .social-media {
     max-width: 1000px;
