@@ -33,9 +33,19 @@
     border-radius: 16px;
 }
 
-.btn--rounded:hover {
+.btn--rounded-primary {
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    border-radius: 16px;
+}
+
+.btn--rounded:hover,
+.btn--rounded-primary:hover {
     transform: scale(1.1); 
 }
+
 
 .btn--medium {
     padding: 8px 20px;

@@ -1,29 +1,43 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../App.css";
 import { Document, Page, pdfjs } from 'react-pdf';
 import resumePDF from "../../pdf/resume.pdf";
+import { Button } from '../Button';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function Resume () {
-    const [numPages, setNumPages] = useState(null);
-    const pageNumber = useState(1);
-  
-    function onDocumentLoadSuccess({ numPages }) {
-      setNumPages(numPages);
+    const [dimensions, setDimensions] = React.useState({ 
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+      React.useEffect(() => {
+        function handleResize() {
+          setDimensions({
+            height: window.innerHeight,
+            width: window.innerWidth
+          })
+        
     }
+    
+        window.addEventListener('resize', handleResize)
+      })
 
     return (
-       <>
-       <h1 className='resume'>RESUME</h1>
-       <Document
-        file={resumePDF}
-        onLoadSuccess={onDocumentLoadSuccess}
-        >
-            <Page pageNumber={pageNumber} />
-        </Document>
-        <p>Page {pageNumber} of {numPages}</p>
-       </>     
+        <>
+        <div className='resume'>
+            <h1>RESUME</h1> 
+            <div className='resume-main'>
+                <Document file={resumePDF}>
+                    <Page pageNumber={1}
+                    scale={dimensions.width / 750} />
+                </Document>
+            </div>
+            <Button className='btns' buttonStyle='btn--rounded-primary'
+                    buttonSize='btn--large' to="resume.pdf" target="_blank"> Download <i class="fas fa-arrow-circle-down"></i></Button>
+            <div className='padding' />
+        </div>
+        </>
     );
 }
 

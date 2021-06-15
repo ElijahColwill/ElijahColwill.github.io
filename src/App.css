@@ -54,10 +54,33 @@
   }
 
   .resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url('./images/img-3.jpg');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    font-size: 3rem;
+    padding: 10px;
+  }
+
+  .resume-main {
+    display: flex;
+    height: 200vh;
+    transform: scale(0.9);
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    margin-bottom: -4rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.47);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.047));
+    filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.047));
+    border-radius: 30px;
+  }
+
+  .padding{
+    margin-top: 2rem;
   }

@@ -26,6 +26,10 @@ function App() {
             window.location.href = 'mailto:elijah.c035@gmail.com'; 
             return null;
           }}/>
+          <Route path='/resume-download' component={() => { 
+            <a href='../../pdf/resume.pdf' download> download </a>; 
+            return null;
+          }}/>
         </Switch>
         <Footer />
       </Router>
