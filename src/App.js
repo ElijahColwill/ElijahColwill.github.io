@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
 import Resume from './components/pages/Resume';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/resume' exact component={Resume} />
+          <Route path='/contact' exact component={Contact} />
           <Route path='/linkedin-rd' component={() => { 
             window.location.href = 'https://www.linkedin.com/in/elijahcolwill/'; 
             return null;

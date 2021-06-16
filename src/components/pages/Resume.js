@@ -28,13 +28,13 @@ function Resume () {
         <div className='resume'>
             <h1>RESUME</h1> 
             <div className='resume-main'>
-                <Document file={resumePDF}>
+                <Document className='resume-shrink' file={resumePDF}>
                     <Page pageNumber={1}
                     scale={dimensions.width / 750} />
                 </Document>
             </div>
             <Button className='btns' buttonStyle='btn--rounded-primary'
-                    buttonSize='btn--large' to="resume.pdf" target="_blank"> Download <i class="fas fa-arrow-circle-down"></i></Button>
+                    buttonSize='btn--large' to="resume.pdf" target="_blank"> Download <i class="fas fa-arrow-circle-down" /></Button>
             <div className='padding' />
         </div>
         </>

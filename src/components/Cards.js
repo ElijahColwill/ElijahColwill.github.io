@@ -11,7 +11,7 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem 
                         src={require('../images/img-pr1.jpg').default}
-                        text="Fully Responsive React.js Portfolio Website"
+                        text="Responsive React.js Portfolio Website"
                         label='JS, React.js, CSS, HTML'
                         path="./projects"
                         />
